@@ -1,0 +1,10 @@
+Declara una variable y asígnale un valor booleano. Luego, utiliza una estructura condicional para determinar si el valor es verdadero o falso y muestra un mensaje apropiado, por ejemplo "Es verdadero" o "Es falso".
+let pase = false;
+
+if(pase){
+    console.log("Es falso")
+
+}
+else{
+    console.log("es verdadero")
+}
