@@ -1,8 +1,7 @@
-let primeraNota = prompt("Ingrese su primera nota");
+let primeraNota = Number(prompt("Ingrese su primera nota"));
 let segundaNota = prompt("Ingrese su segunda nota");
 let terceraNota = prompt("Ingrese su tercera nota");
 let declaracion = undefined;
-primeraNota = Number(primeraNota);
 primeraNota = parseFloat(primeraNota);
 segundaNota = Number(segundaNota);
 segundaNota = parseFloat(segundaNota);
